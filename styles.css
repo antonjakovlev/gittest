@@ -1,0 +1,39 @@
+.bg {
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px;
+}
+
+.switch {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 60px;
+    height: 30px;
+    opacity: 0;
+}
+
+.switch+label {
+    width: 60px;
+    height: 30px;
+    background: #550000;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.switch+label div {
+    width: 29px;
+    height: 29px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.switch:checked+label {
+    background-color: red;
+}
+
+.switch:checked+label div {
+    margin: 0 0 0 30px;
+}
